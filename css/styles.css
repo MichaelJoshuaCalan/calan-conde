@@ -7,18 +7,24 @@ body, h1, h2, h3, p, ul, li {
 body {
     background-image: url("../img/best3.jpg");
     background-repeat: no-repeat, repeat;
-    background-size: contain;
-    font-family: cursive, handwriting;
+   /*  background-size: contain;
+    font-family: arial, sans-serif;
     background-color: #f1d0b4;
-    color: #6a300f;
+    color: #6a300f;*/
+
+    background-size: contain;
+    width: 98.7vw;
+    height: 170 vh;
+    font-family: Arial, sans-serif;
+    color: black,white;
 }
 
 header {
-    
     background-color: #472003;
-    box-shadow: 0 2px 5px rgba(84, 4, 133, 0.1);
-    padding: 20px;
+    box-shadow: 0 2px 10px rgba(84, 4, 133, 0.1);
+    padding: 15px; /* Adjust this value to change the header height */
 }
+
   
 nav {
     display: flex;
@@ -151,6 +157,12 @@ footer {
     text-align: center;
     padding: 20px 0;
 }
+/* Custom CSS for adjusting text position */
+.hero h1 {
+    color: brown;
+    margin-top: 10 !important; /* Adjust this value as needed */
+}
+
 .social-icons {
     margin-top: 20px;
 }
@@ -163,4 +175,28 @@ footer {
 
 .social-icons a:hover img {
     opacity: 0.8; /* Add a hover effect */
+}
+/* Custom CSS for quick links */
+.quick-links {
+    margin-top: 20px;
+}
+.quick-links a {
+    text-decoration: none;
+    color: white; /* Change to your desired link color */
+    margin-right: 15px;
+}
+
+.quick-links a:hover {
+    color: gray; /* Change to your desired link hover color */
+}
+/* Custom CSS to adjust hero section positioning */
+.hero {
+    margin-top: 20px; /* Adjust this value to move the content more up */
+}
+.hero {
+    text-align: center;
+    padding: px 0; /* Adjust the top and bottom padding values */
+    background-image: url('hero-bg.jpg');
+    background-size: cover;
+    color: white;
 }
