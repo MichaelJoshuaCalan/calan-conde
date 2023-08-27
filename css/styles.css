@@ -5,17 +5,21 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
+    background-image: url("../img/best2.jpg");
+    background-repeat: no-repeat, repeat;
+    background-size: contain;
     font-family: cursive, handwriting;
-    background-color: #fde353;
-    color: #381a09;
+    background-color: #f1d0b4;
+    color: #6a300f;
 }
 
 header {
-    background-color: #47341c;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    
+    background-color: #472003;
+    box-shadow: 0 2px 5px rgba(84, 4, 133, 0.1);
     padding: 20px;
 }
-
+  
 nav {
     display: flex;
     justify-content: space-between;
@@ -24,10 +28,13 @@ nav {
 
 .logo img {
     max-width: 125px;
+    
 }
 
 .Logo1 img {
     max-width: 250px;
+    
+    
 }
 
 nav ul {
@@ -38,7 +45,7 @@ nav ul {
 
 nav a {
     text-decoration: none;
-    color: #4c3c32;
+    color: #c1b9b9;
     font-weight: bold;
     transition: color 0.3s;
 }
@@ -87,6 +94,18 @@ nav a:hover {
     font-size: 30px;
     margin-bottom: 20px;
 }
+.menu h3 {
+    text-align: center;
+}
+.menu h5 {
+    text-align:left;
+}
+.menu img {
+    width: 30%;
+    height:15%;
+   
+}
+
 
 .about {
     padding: 100px 0;
@@ -128,4 +147,17 @@ footer {
     color: white;
     text-align: center;
     padding: 20px 0;
+}
+.social-icons {
+    margin-top: 20px;
+}
+
+.social-icons a img {
+    width: 30px; /* Adjust the width as needed */
+    height: auto;
+    margin-right: 15px;
+}
+
+.social-icons a:hover img {
+    opacity: 0.8; /* Add a hover effect */
 }
