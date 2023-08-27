@@ -5,7 +5,7 @@ body, h1, h2, h3, p, ul, li {
 }
 
 body {
-    background-image: url("../img/best2.jpg");
+    background-image: url("../img/best3.jpg");
     background-repeat: no-repeat, repeat;
     background-size: contain;
     font-family: cursive, handwriting;
@@ -65,11 +65,14 @@ nav a:hover {
 .hero h1 {
     font-size: 36px;
     margin-bottom: 20px;
+    margin-top: 20px;
+    color: #fd843f;
 }
 
 .hero p {
     font-size: 18px;
     margin-bottom: 40px;
+    color: #fd843f;
 }
 
 .cta-button {
